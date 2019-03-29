@@ -33,4 +33,5 @@ ext {
     retrofitVersion = "2.4.0"
     okhttpLoggingInterceptorVersion = "3.9.0"
     anko_version = "0.10.8"
+    glide_version = "4.8.0"
 }
