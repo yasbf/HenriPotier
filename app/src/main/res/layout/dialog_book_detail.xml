@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="400dp"
+            android:padding="10dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bookCover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/placeholder_book"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/bookTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_big"
+                android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/lbl_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_medium"
+                android:textStyle="italic"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/bookSynopsis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_medium"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/closeDetailsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/details_dialog_close_button"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_medium"/>
+    </LinearLayout>
+
+</ScrollView>
